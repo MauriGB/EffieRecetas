@@ -1,0 +1,23 @@
+.box__recetas {
+    border: solid 3px map-get($map: $paleta, $key: 'secundario');
+    border-radius: 5px;
+    border-start-start-radius: 0px;
+    padding: 5%;
+    width: 40vw;
+    margin-bottom: 50px;
+    min-width: 200px;
+    a {
+        text-decoration: none;
+        color: #b46b41;
+        font-family: 'Barlow', sans-serif;
+        text-align: center;
+    }
+    a:hover {
+        text-decoration: underline;
+      }
+}
+.box__recetas-img {
+    border-radius: 200px;
+    margin-bottom: 10px;
+    @include sizes(150px, 150px, cover)
+  }

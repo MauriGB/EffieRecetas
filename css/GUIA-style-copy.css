@@ -1,0 +1,248 @@
+/* 
+font-family: 'Barlow', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,500;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:wght@200;300;500;800&display=swap');
+/* body  */ 
+body {
+  background-color: whitesmoke;
+}
+
+.nav__li {
+  width: 200px;
+  background-color: #ffe4e1;
+}
+.nav__text {
+  color: #3a3a3a;
+  font-family: 'Roboto', sans-serif;
+  
+}
+.nav__text:hover {
+  color: #646464!important;
+  text-decoration: underline !important;
+  }
+.active {
+  background-color: rgb(238, 190, 183) ;
+}
+.active a {
+  text-decoration: underline !important;
+  color: #646464!important;
+}
+
+
+h1 {    
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  color: #474843;
+  font-weight: bold;
+  font-size: 48px;
+  background: rgb(255,228,225);
+  background: radial-gradient(circle, rgba(255,228,225,1) 0%, rgba(148,187,233,0) 36%);
+}
+
+header h2 {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+  font-size: 28px;
+  font-weight: normal;
+  color: #999;
+  margin-top: 0px;
+}
+.container__titulo {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 0;
+}
+/*footer*/
+
+.pie_pagina {
+  background: linear-gradient(to bottom, transparent, mistyrose);
+ }
+
+.redes li a img {
+  height: 40px;
+} 
+.footer_izquierda li a {
+  color: #3a3a3a !important;
+} 
+
+/*index main*/
+.carrusel__index {
+  width: 80vw;
+  max-height: 20vh;
+  margin: 0 auto;
+}
+.img_inicio {
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+}
+@media (max-width: 1200px) {
+  .img_inicio {
+    height: 200px;
+    width: 150px;
+  }
+}
+.box__index {
+  border-radius: 15px;
+  background: linear-gradient(142deg, rgba(255,228,225,1) 0%, rgba(255,255,255,0) 33%, rgba(255,255,255,0) 63%, rgba(255,228,225,1) 100%);
+}
+.section__index {
+  width: 70vw;
+  min-width: 550px; 
+}
+.section__index-titulo {
+  font-family: 'Work Sans', sans-serif, ExtraLight 200;
+  font-weight: lighter;
+  color: black;
+  font-size: 150%;
+}
+.section__index-titulo:hover {
+  background-color: rgb(223, 199, 197);
+}
+.section__index-texto {
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+ /* RECETAS */
+ .titulos {
+  font-family: 'Barlow', sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 200%;
+ margin: 50px
+}
+
+.titulobox__recetas {
+  background-color: mistyrose ;
+  border-start-start-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 200px;
+  height: 30px;
+}
+.titulobox__recetas h4 {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  text-decoration: underline;
+  font-size: 110%;
+  color: #381a05;
+ 
+}
+.box__recetas {
+  border: solid 3px #808080;
+  border-radius: 5px;
+  border-start-start-radius: 0px;
+  padding: 5%;
+  width: 40vw;
+  margin-bottom: 50px;
+}
+.box__recetas a {
+  text-decoration: none;
+  color: #b46b41;
+  font-family: 'Barlow', sans-serif;
+  text-align: center;
+}
+.box__recetas a:hover {
+  text-decoration: underline;
+}
+.box__recetas-img {
+  border-radius: 200px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* TIPS */
+.subtitulo__tips {
+  font-family: 'Work Sans', sans-serif, ExtraLight 200;
+  font-weight: lighter;
+}
+.section__tips {
+  width: 60vw;
+  min-width: 500px; 
+}
+.section__tips-box {
+  border-radius: 15px;
+  background: linear-gradient(142deg, rgba(255,228,225,1) 0%, rgba(255,255,255,0) 33%, rgba(255,255,255,0) 63%, rgba(255,228,225,1) 100%);
+}
+.titulo__tip {
+  text-align: center;
+  height: 40px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2em;
+  margin: 0 auto;
+} 
+.subtitulo__tip {
+  font-family: 'Libre Baskerville', serif;
+}
+.tips__imagen-tamanio {
+  width: 300px;
+  height: 300px;
+  max-width: 300px;
+  min-height: 150px;
+  min-width: 150px;
+  object-fit: cover;
+}
+.lista__tips {
+  list-style-type: '🌸';
+  font-family: 'Roboto', sans-serif;
+  color: #3a3a3a;
+}
+
+/* INFORMACION */
+.section__info {
+  border-radius: 15px;
+  background: linear-gradient(142deg, rgba(255,228,225,1) 0%, rgba(255,255,255,0) 33%, rgba(255,255,255,0) 63%, rgba(255,228,225,1) 100%);
+}
+.box__info {
+  margin: 0 auto;
+  width: 80vw;
+
+}
+.img__info {
+  max-height: 400px;
+  max-width: 500px;
+  object-fit: contain
+}
+.text__info {
+  font-family: 'Libre Baskerville', serif;
+  margin: 0 auto;
+}
+
+/* CONTACTO */
+.box__redes {
+  border: solid 4px #3a3a3a;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, transparent, mistyrose);
+  height: 250px;
+  width: 250px;
+}
+.box__redes img {
+  max-height: 150px;
+  max-width: 150px;
+  margin: 30px;
+}
+
+.academia {
+  font-family: 'Work Sans', sans-serif;
+  text-decoration: underline;
+  font-size: 200%;
+  text-align: center;
+  color: #381a05;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  
+}
+.academia iframe {
+  height: 250px;
+  width: 500px;
+  margin: 50px;
+}

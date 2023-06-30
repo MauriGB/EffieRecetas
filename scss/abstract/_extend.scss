@@ -1,0 +1,12 @@
+.tamanio{
+    width: 70vw;
+    min-width: 350px;
+}
+.sombra{
+    background: rgb(255,228,225);
+    background: linear-gradient(180deg, rgba(255,228,225,1) 0%, rgba(210,155,155,1) 100%);
+}
+.gradient-box{
+    border-radius: 15px;
+    background: linear-gradient(142deg, rgba(255,228,225,1) 0%, rgba(255,255,255,0) 33%, rgba(255,255,255,0) 63%, rgba(255,228,225,1) 100%);
+}

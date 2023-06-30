@@ -1,0 +1,17 @@
+.section__tips {
+    @extend .tamanio;
+  }
+.section__tips-box {
+  @extend .gradient-box
+}
+.tips__imagen-tamanio {
+    max-width: 300px;
+    min-height: 150px;
+    min-width: 150px;
+    @include sizes(300px, 300px, cover)
+  }
+.lista__tips {
+    list-style-type: '🌸';
+    font-family: 'Roboto', sans-serif;
+    color: map-get($map: $paleta, $key:'cuatro' );
+  }
