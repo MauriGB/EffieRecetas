@@ -18,6 +18,10 @@
     .box__recetas-img {
         border-radius: 200px;
         margin-bottom: 10px;
-        @include sizes(150px, 150px, cover)
+        @include sizes(150px, 150px, cover);
+        
+        &:hover{
+            animation: recetas 0.6s;
+        }
     }
 }

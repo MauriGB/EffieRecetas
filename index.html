@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Con Effie descubre deliciosas recetas y útiles consejos de cocina hogareña. Disfruta de sabores auténticos y aprende técnicas para crear momentos especiales en tu hogar. ¡Inspírate y sorprende a tus seres queridos con platos caseros irresistibles!">
+    <meta name="keywords" content="cocina, recetas de cocina, tips de cocina, comida casera, comida alemana, comida italiana, comida rica, comida familiar, hogar, Effie">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <title>Effie</title>
@@ -56,7 +59,7 @@
     <main>
         <div class="d-flex justify-content-center">    
             <section class="d-flex flex-column text-center section__index">
-                <div class="container border-start border-end border-2 p-3 py-4 my-5 box__index">
+                <div class="container border-start border-end border-2 p-3 py-4 my-5 box__index"  data-aos="fade-right">
                     <div class="row">
 
                         <div class="col-lg-4 box__img_index">
@@ -68,7 +71,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container border-start border-end border-2 p-3 py-4 my-5 box__index">
+                <div class="container border-start border-end border-2 p-3 py-4 my-5 box__index"  data-aos="fade-left">
                     <div class="row">
 
                         <div class="col-lg-4 box__img_index">
@@ -83,8 +86,8 @@
             </section>
         </div>           
         </main>
-    <footer class="container-fluid justify-content-between pie_pagina column-gap-0">
-        <div class="row align-items-center gap-sm-3">
+    <footer class="container-fluid justify-content-between pie_pagina column-gap-0" >
+        <div class="row align-items-center gap-sm-3" >
             <div class="col-lg-2 col-12 grupo_1">
                 <ul class="d-flex flex-sm-row flex-lg-column justify-content-center gap-2 row-gap-lg-1 footer_derecha">
                         <a href="./pages/contacto.html" target="_blank" class="text-reset">Contacto</a>
@@ -126,5 +129,9 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
