@@ -1,0 +1,40 @@
+@media (max-width: 576px) {
+    .nav__text{
+        font-size: $f-size-res;
+    }
+    
+    header {
+        h2{
+            font-size: $f-size;
+        }
+    }
+
+    .titulos {
+        font-size: 150%;
+        margin: 25px;
+    }
+
+    .titulo__tip {
+        font-size: $f-size;
+        padding-bottom: 5px;
+    }
+
+    .subtitulo__tip {
+        font-size: ($f-size-res + 2);
+    }
+
+    .lista__tips {
+        font-size: $f-size-res;
+    }
+
+    .text__info {
+        font-size: 16px;
+    }
+
+    .academia {
+        iframe {
+          width: 300px;
+          height: 400px;
+        }
+      }
+}

@@ -3,25 +3,30 @@
     max-height: 20vh;
     margin: $m-auto;
   }
-.img_inicio {
-    @include sizes(300px, 400px, cover);
-    margin-bottom: 10px
-}
-.box__index {
-    @extend .gradient-box;
-}
 .section__index {
     @extend .tamanio;
-}
-.section__index-titulo {
-    font-family: 'Work Sans', sans-serif, ExtraLight 200;
-    font-weight: lighter;
-    color: black;
-    font-size: 150%;
-}
-.section__index-titulo:hover {
-    background-color: map-get($map: $paleta, $key: 'primario');
-  }
-.section__index-texto {
-    font-family: 'Libre Baskerville', serif;
+    .box__index {
+        @extend .gradient-box;
+        .row{
+            .box__img_index{
+                .img_inicio {
+                    @include sizes(300px, 400px, cover);
+                    margin-bottom: 10px
+                }
+            }
+            .section__index-titulo {
+                font-family: 'Work Sans', sans-serif, ExtraLight 200;
+                font-weight: lighter;
+                color: black;
+                font-size: $f-size;
+                &:hover {
+                    background-color: map-get($map: $paleta, $key: 'primario');
+                }
+            }
+            .section__index-texto {
+                font-family: 'Libre Baskerville', serif;
+                font-size: 15px;
+            }
+        }
+    }
 }

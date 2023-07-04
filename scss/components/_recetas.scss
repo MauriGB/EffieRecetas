@@ -11,13 +11,13 @@
         color: #b46b41;
         font-family: 'Barlow', sans-serif;
         text-align: center;
+        &:hover {
+            text-decoration: underline;
+        }
     }
-    a:hover {
-        text-decoration: underline;
-      }
+    .box__recetas-img {
+        border-radius: 200px;
+        margin-bottom: 10px;
+        @include sizes(150px, 150px, cover)
+    }
 }
-.box__recetas-img {
-    border-radius: 200px;
-    margin-bottom: 10px;
-    @include sizes(150px, 150px, cover)
-  }

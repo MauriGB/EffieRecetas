@@ -1,16 +1,17 @@
-.section__info {
+.box__info {
+  margin: $m-auto;
+  width: 80vw;
+  .section__info {
     @extend .gradient-box;
   }
-.box__info {
-    margin: $m-auto;
-    width: 80vw;
-}
-.img__info {
+  .img__info {
     max-height: 400px;
     max-width: 500px;
     object-fit: contain
-}
-.text__info {
+  }
+  .text__info {
     font-family: 'Libre Baskerville', serif;
     margin: $m-auto;
+    padding-bottom: 10px;
   }
+}
