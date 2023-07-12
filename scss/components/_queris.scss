@@ -1,6 +1,13 @@
+@media (max-width: 991px) {
+    .box__recetas {
+        width: 40vw;
+    }
+    
+}
+
 @media (max-width: 576px) {
     .nav__text{
-        font-size: $f-size-res;
+        font-size: 16px;
     }
     
     header {
@@ -37,4 +44,12 @@
           height: 400px;
         }
       }
+    
+    .box__recetas {
+        width: 90vw;
+    }
+
+    .section__info {
+        padding: 20px !important;
+    }
 }

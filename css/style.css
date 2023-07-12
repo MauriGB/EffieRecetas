@@ -12,7 +12,7 @@
 
 .gradient-box, .section__tips .section__tips-box, .box__info .section__info, .section__index .box__index {
   border-radius: 15px;
-  background: linear-gradient(142deg, rgb(255, 228, 225) 0%, rgba(255, 255, 255, 0) 33%, rgba(255, 255, 255, 0) 63%, rgb(255, 228, 225) 100%);
+  background: linear-gradient(142deg, #F0AEAA 0%, rgba(255, 255, 255, 0) 33%, rgba(255, 255, 255, 0) 63%, #F0AEAA 100%);
 }
 
 .box__redes {
@@ -47,8 +47,43 @@
   min-height: 150px;
 }
 
+.form {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border: solid 1px grey;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.form .label {
+  display: block;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+.form .input {
+  display: block;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+.form .edad {
+  width: 50px;
+  margin-left: 43px;
+}
+.form .enviar {
+  background-color: #D69B98;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 5px;
+  border: solid 1.5px grey;
+}
+
 .pie_pagina {
-  background: linear-gradient(to bottom, transparent, mistyrose);
+  background: linear-gradient(to bottom, transparent, #F0AEAA);
 }
 
 .redes li a img {
@@ -213,7 +248,7 @@ header h2 {
 }
 
 .titulobox__recetas {
-  background-color: #ffe4e1;
+  background-color: #F0AEAA;
   border-start-start-radius: 15px;
   border-top-right-radius: 15px;
   width: 200px;
@@ -245,9 +280,22 @@ header h2 {
   font-size: 20px;
 }
 
+.titulo__form {
+  font-family: "Barlow", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #705150;
+}
+
+@media (max-width: 991px) {
+  .box__recetas {
+    width: 40vw;
+  }
+}
 @media (max-width: 576px) {
   .nav__text {
-    font-size: 11.5px;
+    font-size: 16px;
   }
   header h2 {
     font-size: 20px;
@@ -272,6 +320,12 @@ header h2 {
   .academia iframe {
     width: 300px;
     height: 400px;
+  }
+  .box__recetas {
+    width: 90vw;
+  }
+  .section__info {
+    padding: 20px !important;
   }
 }
 @keyframes recetas {
